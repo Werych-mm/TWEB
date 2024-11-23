@@ -1,0 +1,17 @@
+.eah {
+    width: 250px;
+    height: 250px;
+}
+
+aside div {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 125px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
