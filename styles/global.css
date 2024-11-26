@@ -6,10 +6,10 @@
 }
 
 :root {
-    --cor-neon: #ad49ff;
-    --cor-gradiente-1: #9f56ff;
-    --cor-gradiente-2: #fc466b;
+    --cor-neon:  #f4cea8;
+    --cor-gradiente-1: #9a5987;
+    --cor-gradiente-2: #d82b58;
     --cor-branca: #ffffff;
-    --cor-texto: #2A2A2A;
+    --cor-texto: #171115;
     --box-shadow: 0 2px 15px rgba(248, 117, 108, 0.37); 
 }
