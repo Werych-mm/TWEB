@@ -1,63 +1,38 @@
-header {
-    background-color: var(--cor-branca);
-    box-shadow: var(--box-shadow);
+aside div {
+    height: 125px;
 }
 
-.header-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+section {
+    padding: 80px;
+    gap: 20px
 }
 
-.logo-container {
+.principal {
     display: flex;
     align-items: center;
-
+    text-align: center;
 }
 
-.logo {
-    width: 200px;
-    height: 200px;
-}
-
-.company-name {
-    background: linear-gradient(45deg, var(--cor-gradiente-1), var(--cor-gradiente-2));
+.sub-titulo {
+    background: linear-gradient(300deg, var(--cor-gradiente-1), var(--cor-gradiente-2));
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    font-size: 1.5rem;
-    font-weight: bold;
-    letter-spacing: 0.5px;
+    margin-bottom: 30px;
 }
 
-.nome-empresa {
+button {
+    background: linear-gradient(320deg, var(--cor-gradiente-1), var(--cor-gradiente-2));
     color: var(--cor-texto);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-shadow: var(--box-shadow);
-    
+    padding: 12px;
+    margin-top: 25px ;
+    border-radius: 25px;
+    border: 0;
+    cursor: pointer;
+    transition: 0.3 ease;
 }
 
-
-nav ul {
-    list-style-type: none;
-    display: flex;
-    gap: 2rem;
-}
-
-nav a {
-    text-decoration: none;
-    color: var(--cor-texto);
-    font-weight: 500;
-    padding: 0.5rem 1rem;
-    border-radius: 8px;
-    transition: all 0.3s ease;
-    position: relative;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-}
-
-nav a::after {
+section button::after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -68,7 +43,7 @@ nav a::after {
     transition: width 0.3s ease;
 }
 
-nav a:hover::after {
+section button:hover::after {
     width: 100%;
 }
 
@@ -79,7 +54,7 @@ nav a:hover {
     color: transparent;
 }
 
-nav ul li:last-child a {
+main section:last-child button {
     background: var(--cor-neon);
     color: var(--cor-texto);
     padding: 0.8rem 1.5rem;
@@ -88,11 +63,11 @@ nav ul li:last-child a {
     box-shadow: 0 0 15px rgba(138, 43, 226, 0.3);
 }
 
-nav ul li:last-child a::after {
+main section:last-child button::after {
     display: none;
 }
 
-nav ul li:last-child a:hover {
+main section:last-child button:hover {
     background: linear-gradient(45deg, var(--cor-gradiente-1), var(--cor-gradiente-2));
     color: var(--cor-texto);
     box-shadow: 0 0 20px rgba(138, 43, 226, 0.5);
