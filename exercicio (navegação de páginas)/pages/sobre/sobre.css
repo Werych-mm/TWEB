@@ -1,0 +1,63 @@
+section {
+    margin-top: 20px;
+}
+
+.logotitu {
+    width: 250px;
+}
+
+.sectso {
+    margin-top: 30px;
+}
+
+.imgs {
+    width: 250px;
+    height: 250px;
+    margin-top: 25px;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: ease 1s;
+    gap: 5px;
+    padding: 10px;
+}
+
+.imgse {
+    width: 65%;
+}
+
+aside {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    margin: auto;
+    margin-left: 150px;
+}
+
+.imgs:hover {
+    transform: scale(1.2);
+}
+
+.int {
+    color: var(--cor-texto);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.titu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.desc {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: var(--cor-texto);
+    margin-top: 20px;
+    gap: 2rem;
+}
+
