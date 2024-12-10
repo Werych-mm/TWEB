@@ -52,12 +52,7 @@ aside {
     justify-content: center;
 }
 
-.desc {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    color: var(--cor-texto);
-    margin-top: 20px;
-    gap: 2rem;
+.footsob {
+    margin-top: 80px;
 }
 

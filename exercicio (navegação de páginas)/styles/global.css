@@ -82,5 +82,6 @@ footer {
     background-color: var(--cor-gradiente-1);
     color: var(--cor-branca);
     padding: 20px;
-    bottom: 0;
+    
+    width: 100%;
 }
