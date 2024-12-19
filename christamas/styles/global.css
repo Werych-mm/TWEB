@@ -1,0 +1,86 @@
+@import url(main.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-neon: rgb(179, 18, 18);
+    --cor-gradiente-1: rgb(240, 70, 70);
+    --cor-gradiente-2: rgb(112, 15, 15);
+    --cor-texto: rgb(0, 0, 0);
+    --box-shadow: rgb(58, 10, 10);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #390507;
+    color: var(--cor-texto);
+}
+
+header, h1 {
+    align-items: center;
+    color: #fff;
+}
+
+.logo {
+    width: 300px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    padding: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li {
+    text-decoration: none;
+    margin: 0 20px 0;
+    list-style: none;
+}
+
+ul a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+ul a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    background-color: #fff;
+    width: 0;
+    transition: width 0.3s ease;
+}
+
+ul a:hover::after {
+    width: 100%;
+    animation: heartbeat116 1.5s infinite;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #390507;
+    color: #fff;
+    padding: 50px;
+    width: 100%;
+}

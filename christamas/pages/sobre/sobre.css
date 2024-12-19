@@ -1,0 +1,38 @@
+.subtitso {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 20px; 
+}
+
+.hn {
+    border: 1px solid black;
+    width: 30%;
+    margin-left: 100px;
+    background-color: #390507;
+    color: #fff;
+    border-radius: 5px ;
+    text-align: center;
+}
+
+.pn {
+    border: 1px solid black;
+    width: 20%;
+    background-color: #390507;
+    color: #fff;
+    border-radius: 5px;
+    margin-left: 100px;
+    text-align: center;
+}
+
+.cn {
+    border: 1px solid black;
+    width: 30%;
+    margin-left: 100px;
+    background-color: #390507;
+    color: #fff;
+    border-radius: 5px ;
+    text-align: center;
+}
+
+

@@ -1,0 +1,27 @@
+.subtit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color: var(--cor-texto);
+}
+
+
+.ih {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 10rem;
+} 
+
+.ih1, .ih2 {
+    width: 500px;
+    border-radius: 5px;
+    transition: 1s ease;
+    cursor: pointer;
+}
+
+.ih1:hover, .ih2:hover {
+    scale: 1.1;
+}
