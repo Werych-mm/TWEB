@@ -1,0 +1,115 @@
+.str {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--cor-texto);
+    padding: 5px;
+}
+
+.bdr {
+    margin-left: 450px ;
+}
+
+.imgperu {
+    width: 380px;
+}
+
+.peru {
+    text-align: center;
+}
+
+.descperu {
+    text-align: center;
+}
+
+.divperu1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divperu {
+    border: none;
+    background-color: var(--cor-neon);
+    width: auto;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.frica {
+    width: 380px;
+}
+
+.nfrica {
+    text-align: center;
+}
+
+.descfrica {
+    text-align: center;
+}
+
+.divfrica {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divfrica1 {
+    border: none;
+    background-color: var(--cor-neon);
+    width: auto;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.imgpan {
+    width: 380px;
+    height: 250px;
+}
+
+.panetone {
+    text-align: center;
+}
+
+.descpan {
+    text-align: center;
+}
+
+.divpan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divpan1 {
+    border: none;
+    background-color: var(--cor-neon);
+    width: auto;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.pan {
+    text-align: center;
+}
+
+.descpan {
+    text-align: center;
+}
+
+.tudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.divfrica, .divpan {
+    gap: 2rem;
+}
+
+
+
+
+
