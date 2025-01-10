@@ -1,0 +1,128 @@
+.stts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.Tudots {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.mcimg {
+    width: 380px;
+    height: 220px;
+}
+
+.mcd , .jbd, .lc, .hx, .dstm {
+    width: 30%;
+    margin: 10px;
+}
+
+.divimgmc {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.mcm {
+    text-align: center;
+    color: aliceblue;
+}
+
+.mcd {
+    width: 400px;
+    background-color: var(--cor-neon);
+}
+
+.jbimg {
+    width: 380px;
+    height: 235px;
+}
+
+.divjbimg {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.mjb {
+    text-align: center;
+    color: aliceblue;
+}
+
+.jbd {
+    width: 400px;
+    background-color: var(--cor-neon);
+    height: 500px;
+}
+
+.imglc {
+    width: 380px;
+    height: 215px;
+}
+
+.divlcimg {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.mlc {
+    text-align: center;
+    color: aliceblue;
+}
+
+.lcd {
+    width: 400px;
+    background-color: var(--cor-neon);
+    height: 500px;
+}
+
+.imghx {
+    width: 380px;
+    height: 230px;
+}
+
+.divhximg {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.mhx {
+    text-align: center;
+    color: aliceblue;
+}
+
+.hxd {
+    width: 400px;
+    background-color: var(--cor-neon);
+    height: 500px;
+}
+
+.imgstm {
+    width: 400px;
+    height: 215px;
+}
+
+.divdstmimg {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.mdstm {
+    text-align: center;
+    color: aliceblue;
+}
+
+.dstmd {
+    width: 400px;
+    background-color: var(--cor-neon);
+    height: 500px;
+}

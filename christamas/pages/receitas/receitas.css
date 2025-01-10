@@ -6,8 +6,10 @@
     padding: 5px;
 }
 
-.bdr {
-    margin-left: 450px ;
+.imgbdr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .imgperu {
@@ -16,10 +18,12 @@
 
 .peru {
     text-align: center;
+    color: aliceblue;
 }
 
 .descperu {
     text-align: center;
+    color: aliceblue;
 }
 
 .divperu1 {
@@ -42,10 +46,12 @@
 
 .nfrica {
     text-align: center;
+    color: aliceblue;
 }
 
 .descfrica {
     text-align: center;
+    color: aliceblue;
 }
 
 .divfrica {
@@ -69,10 +75,12 @@
 
 .panetone {
     text-align: center;
+    color: aliceblue;
 }
 
 .descpan {
     text-align: center;
+    color: aliceblue;
 }
 
 .divpan {
@@ -91,10 +99,12 @@
 
 .pan {
     text-align: center;
+    color: aliceblue;
 }
 
 .descpan {
     text-align: center;
+    color: aliceblue;
 }
 
 .tudo {
@@ -108,6 +118,7 @@
 .divfrica, .divpan {
     gap: 2rem;
 }
+
 
 
 
