@@ -7,7 +7,6 @@
 
 .Tudots {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     margin-top: 2rem;
     width: 100%;
@@ -125,4 +124,16 @@
     width: 400px;
     background-color: var(--cor-neon);
     height: 500px;
+}
+
+@media (max-width: 768px) {
+    .tudots {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    .tudots {
+        flex-direction: column;
+    }
 }

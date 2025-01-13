@@ -25,3 +25,15 @@
 .ih1:hover, .ih2:hover {
     scale: 1.1;
 }
+
+@media (max-width: 768px) {
+    .ih {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    .ih {
+        flex-direction: column;
+    }
+}

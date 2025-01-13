@@ -85,3 +85,22 @@ footer {
     padding: 50px;
     width: 100%;
 }
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+        text-align: center;
+    }
+}
