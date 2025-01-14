@@ -3,13 +3,22 @@
     align-items: center;
     justify-content: center;
     color: var(--cor-texto);
-    padding: 5px;
+    padding: 7px;
 }
 
 .imgbdr {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.bdr {
+    border-radius: 5px;
+}
+
+.bdr:hover {
+    transition: 1s ease;
+    transform: scale(1.04);
 }
 
 .imgperu {
@@ -120,24 +129,30 @@
 }
 
 @media (max-width: 768px) {
-    header {
-    display: flex;
-    width: 100%;
-    }
-   
-    .divperu1, .divfrica, .divpan {
-        flex-wrap: wrap;
-        width: 0%;
+    
+    .tudo{
+        display: flex;
+        flex-direction: column;
+        max-width: 768px;
+        margin: 0 auto;
+        width: 100%;
+        margin-bottom: 30px;
     }
 
     .bdr {
-        width: 80%;
-        margin: 5px;
-    }
+        width: 90%;
+}
+
 }
 
 @media (max-width: 480px) {
+    
     .tudo {
+        display: flex;
         flex-direction: column;
+        max-width: 480px;
+        margin: 0 auto;
+        width: 100%;
+        margin-bottom: 10px;
     }
 }

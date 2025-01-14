@@ -127,13 +127,37 @@
 }
 
 @media (max-width: 768px) {
-    .tudots {
+    
+    header {
+        width: auto;
+    }
+    
+    .Tudots {
+        display: flex;
         flex-direction: column;
+        max-width: 480px;
+        margin: 0 auto;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .mc, .jb, .lcd, .hxd, .dstmd {
+        height: auto;
     }
 }
 
 @media (max-width: 480px) {
-    .tudots {
+    .tudots{
+        display: flex;
         flex-direction: column;
+        max-width: 480px;
+        margin: 0 auto;
+        width: 100%;
+        margin-bottom: 10px;
+        align-items: center;
+    }
+    
+    .mc, .jb, .lcd, .hxd, .dstmd {
+        align-items: center;
     }
 }
