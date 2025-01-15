@@ -8,7 +8,7 @@
 .Tudots {
     display: flex;
     justify-content: center;
-    margin-top: 2rem;
+    margin-top: 5px;
     width: 100%;
 }
 
@@ -20,12 +20,12 @@
 .mcd , .jbd, .lc, .hx, .dstm {
     width: 30%;
     margin: 10px;
+    border-radius: 5px;
 }
 
 .divimgmc {
     display: flex;
     justify-content: center;
-    padding: 5px;
 }
 
 .mcm {
@@ -36,28 +36,6 @@
 .mcd {
     width: 400px;
     background-color: var(--cor-neon);
-}
-
-.jbimg {
-    width: 380px;
-    height: 235px;
-}
-
-.divjbimg {
-    display: flex;
-    justify-content: center;
-    padding: 5px;
-}
-
-.mjb {
-    text-align: center;
-    color: aliceblue;
-}
-
-.jbd {
-    width: 400px;
-    background-color: var(--cor-neon);
-    height: 500px;
 }
 
 .imglc {
@@ -141,23 +119,24 @@
         margin-bottom: 10px;
     }
 
-    .mc, .jb, .lcd, .hxd, .dstmd {
+    .mc, .lcd, .hxd, .dstmd {
         height: auto;
     }
 }
 
 @media (max-width: 480px) {
-    .tudots{
+    .tudots {
         display: flex;
-        flex-direction: column;
         max-width: 480px;
         margin: 0 auto;
         width: 100%;
         margin-bottom: 10px;
         align-items: center;
+        justify-content: center;
     }
     
-    .mc, .jb, .lcd, .hxd, .dstmd {
+    .mc, .lcd, .hxd, .dstmd {
         align-items: center;
+        justify-content: center;
     }
 }

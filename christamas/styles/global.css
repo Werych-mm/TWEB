@@ -82,7 +82,7 @@ footer {
     justify-content: center;
     background-color: #390507;
     color: #fff;
-    padding: 50px;
+    padding: 30px;
     width: 100%;
 }
 
@@ -96,6 +96,10 @@ footer {
 
     nav ul {
         gap: 1rem;
+    }
+
+    body {
+        max-width: 768px;
     }
 }
 

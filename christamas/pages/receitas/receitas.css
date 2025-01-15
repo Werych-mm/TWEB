@@ -1,158 +1,148 @@
-.str {
+.stts {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--cor-texto);
-    padding: 7px;
+    margin-top: 1rem;
 }
 
-.imgbdr {
+.Tudots {
     display: flex;
-    align-items: center;
     justify-content: center;
+    margin-top: 2rem;
+    width: 100%;
 }
 
-.bdr {
-    border-radius: 5px;
-}
-
-.bdr:hover {
-    transition: 1s ease;
-    transform: scale(1.04);
-}
-
-.imgperu {
+.mcimg {
     width: 380px;
+    height: 220px;
 }
 
-.peru {
-    text-align: center;
-    color: aliceblue;
+.mcd , .jbd, .lc, .hx, .dstm {
+    width: 30%;
+    margin: 10px;
 }
 
-.descperu {
-    text-align: center;
-    color: aliceblue;
-}
-
-.divperu1 {
+.divimgmc {
     display: flex;
-    align-items: center;
     justify-content: center;
-}
-
-.divperu {
-    border: none;
-    background-color: var(--cor-neon);
-    width: auto;
-    border-radius: 5px;
     padding: 5px;
 }
 
-.frica {
-    width: 380px;
-}
-
-.nfrica {
+.mcm {
     text-align: center;
     color: aliceblue;
 }
 
-.descfrica {
-    text-align: center;
-    color: aliceblue;
-}
-
-.divfrica {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.divfrica1 {
-    border: none;
+.mcd {
+    width: 400px;
     background-color: var(--cor-neon);
-    width: auto;
-    border-radius: 5px;
+}
+
+.jbimg {
+    width: 380px;
+    height: 235px;
+}
+
+.divjbimg {
+    display: flex;
+    justify-content: center;
     padding: 5px;
 }
 
-.imgpan {
-    width: 380px;
-    height: 250px;
-}
-
-.panetone {
+.mjb {
     text-align: center;
     color: aliceblue;
 }
 
-.descpan {
-    text-align: center;
-    color: aliceblue;
-}
-
-.divpan {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.divpan1 {
-    border: none;
+.jbd {
+    width: 400px;
     background-color: var(--cor-neon);
-    width: auto;
-    border-radius: 5px;
+    height: 500px;
+}
+
+.imglc {
+    width: 380px;
+    height: 215px;
+}
+
+.divlcimg {
+    display: flex;
+    justify-content: center;
     padding: 5px;
 }
 
-.pan {
+.mlc {
     text-align: center;
     color: aliceblue;
 }
 
-.descpan {
-    text-align: center;
-    color: aliceblue;
+.lcd {
+    width: 400px;
+    background-color: var(--cor-neon);
+    height: 500px;
 }
 
-.tudo {
+.imghx {
+    width: 380px;
+    height: 230px;
+}
+
+.divhximg {
     display: flex;
-    align-items: center;
     justify-content: center;
-    gap: 2rem;
-    padding: 1rem;
+    padding: 5px;
 }
 
-.divfrica, .divpan {
-    gap: 2rem;
+.mhx {
+    text-align: center;
+    color: aliceblue;
+}
+
+.hxd {
+    width: 400px;
+    background-color: var(--cor-neon);
+    height: 500px;
+}
+
+.imgstm {
+    width: 400px;
+    height: 215px;
+}
+
+.divdstmimg {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.mdstm {
+    text-align: center;
+    color: aliceblue;
+}
+
+.dstmd {
+    width: 400px;
+    background-color: var(--cor-neon);
+    height: 500px;
 }
 
 @media (max-width: 768px) {
     
-    .tudo{
-        display: flex;
-        flex-direction: column;
-        max-width: 768px;
-        margin: 0 auto;
-        width: 100%;
-        margin-bottom: 30px;
-    }
-
-    .bdr {
-        width: 90%;
-}
-
-}
-
-@media (max-width: 480px) {
-    
     .tudo {
         display: flex;
         flex-direction: column;
-        max-width: 480px;
+        max-width: 90%;
+        width: 75%;
         margin: 0 auto;
-        width: 100%;
-        margin-bottom: 10px;
+        margin-bottom: 30px;
+    } 
+
+    .bdr {
+        width: 80%;
+    }
+
+    .divfrica, .divpan {
+        display: flex;
+        flex-direction: column;
     }
 }
