@@ -6,7 +6,6 @@
     color: var(--cor-texto);
 }
 
-
 .ih {
     display: flex;
     justify-content: center;
@@ -30,10 +29,18 @@
     .ih {
         flex-direction: column;
     }
+
+    .ih1, .ih2 {
+        width: 95%;
+    }
 }
 
 @media (max-width: 480px) {
     .ih {
         flex-direction: column;
+    }
+
+    .ih1, .ih2 {
+        width: 95%;
     }
 }

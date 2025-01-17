@@ -14,7 +14,7 @@
     width: 30%;
     margin-left: 100px;
     background-color: var(--cor-neon);
-    color: var(--cor-neon);
+    color: #fff;
     border-radius: 5px ;
     text-align: center;
     cursor: pointer;
@@ -23,7 +23,7 @@
 .pn {
     width: 20%;
     background-color: var(--cor-neon);
-    color: var(--cor-neon);
+    color: #fff;
     border-radius: 5px;
     margin-left: 100px;
     text-align: center;
@@ -34,7 +34,7 @@
     width: 30%;
     margin-left: 100px;
     background-color: var(--cor-neon);
-    color: var(--cor-neon);
+    color: #fff;
     border-radius: 5px ;
     text-align: center;
     cursor: pointer;
@@ -45,26 +45,19 @@
     margin-top: 20px;
 }
 
-.hn:hover {
-    transition: 1s;
-    color: #fff
-}
-
-.pn:hover {
-    transition: 1s;
-    color: #fff
-}
-
-.cn:hover {
-    transition: 1s;
-    color: #fff
-}
-
 @media (max-width: 768px) {
     .conteisobre {
         flex-direction: column;
         width: 88%;
         gap: 2px ;
+    }
+
+    .hn, .cn {
+        width: 90%;
+    }
+
+    .pn {
+        width: 50%;
     }
 }
 
@@ -73,5 +66,13 @@
         flex-direction: column;
         width: 80%;
         gap: 2px ;
+    }
+
+    .hn, .cn {
+        width: 90%;
+    }
+
+    .pn {
+        width: 50%;
     }
 }

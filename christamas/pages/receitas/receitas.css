@@ -1,148 +1,166 @@
-.stts {
+.str {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 1rem;
 }
 
-.Tudots {
+.imgbdr {
     display: flex;
+    align-items: center;
     justify-content: center;
-    margin-top: 2rem;
-    width: 100%;
+    margin: 5px;
 }
 
-.mcimg {
-    width: 380px;
-    height: 220px;
+.bdr {
+    border-radius: 10px;
+    transition: 2s ease;
+    cursor: pointer;
 }
 
-.mcd , .jbd, .lc, .hx, .dstm {
-    width: 30%;
-    margin: 10px;
+.bdr:hover {
+    transform: rotate(180deg);
 }
 
-.divimgmc {
+.tudo {
     display: flex;
+    align-items: center;
     justify-content: center;
-    padding: 5px;
+    gap: 5px;
 }
 
-.mcm {
-    text-align: center;
-    color: aliceblue;
+.divperu {
+    max-width: 95%;
+    background-color: var(--cor-gradiente-1);
+    border-radius: 5px;
 }
 
-.mcd {
-    width: 400px;
-    background-color: var(--cor-neon);
-}
-
-.jbimg {
-    width: 380px;
-    height: 235px;
-}
-
-.divjbimg {
+.divimgperu {
     display: flex;
+    align-items: center;
     justify-content: center;
     padding: 5px;
 }
 
-.mjb {
+.imgperu {
+    border-radius: 5px;
+    height: 267px;
+    width: auto;
+    cursor: pointer;
+    transition: 1s ease;
+}
+
+.imgperu:hover {
+    transform: scale(1.03);
+}
+
+.peru {
     text-align: center;
     color: aliceblue;
 }
 
-.jbd {
-    width: 400px;
-    background-color: var(--cor-neon);
-    height: 500px;
+.descperu {
+    text-align: center;
+    color: aliceblue;
 }
 
-.imglc {
-    width: 380px;
-    height: 215px;
+.divfrica {
+    max-width: 95%;
+    background-color: var(--cor-gradiente-1);
+    border-radius: 5px;
 }
 
-.divlcimg {
+.divimgfrica {
     display: flex;
+    align-items: center;
     justify-content: center;
     padding: 5px;
 }
 
-.mlc {
+.imgfrica {
+    border-radius: 5px;
+    height: 267px;
+    cursor: pointer;
+    transition: 1s ease;
+}
+
+.imgfrica:hover {
+    transform: scale(1.03);
+}
+
+.frica {
     text-align: center;
     color: aliceblue;
 }
 
-.lcd {
-    width: 400px;
-    background-color: var(--cor-neon);
-    height: 500px;
+.descfrica {
+    text-align: center;
+    color: aliceblue;
 }
 
-.imghx {
-    width: 380px;
-    height: 230px;
+.divpan {
+    max-width: 95%;
+    background-color: var(--cor-gradiente-1);
+    border-radius: 5px;
 }
 
-.divhximg {
+.divimgpan {
     display: flex;
+    align-items: center;
     justify-content: center;
     padding: 5px;
 }
 
-.mhx {
+.imgpan {
+    border-radius: 5px;
+    height: 270px;
+    cursor: pointer;
+    transition: 1s ease;
+    width: 95%;
+}
+
+.imgpan:hover {
+    transform: scale(1.03);
+}
+
+.pan {
     text-align: center;
     color: aliceblue;
 }
 
-.hxd {
-    width: 400px;
-    background-color: var(--cor-neon);
-    height: 500px;
-}
-
-.imgstm {
-    width: 400px;
-    height: 215px;
-}
-
-.divdstmimg {
-    display: flex;
-    justify-content: center;
-    padding: 5px;
-}
-
-.mdstm {
+.descpan {
     text-align: center;
     color: aliceblue;
 }
 
-.dstmd {
-    width: 400px;
-    background-color: var(--cor-neon);
-    height: 500px;
+.footre {
+    margin-top: 5px;
 }
 
 @media (max-width: 768px) {
-    
-    .tudo {
-        display: flex;
-        flex-direction: column;
-        max-width: 90%;
-        width: 75%;
-        margin: 0 auto;
-        margin-bottom: 30px;
-    } 
-
     .bdr {
-        width: 80%;
+        width: 95%;
     }
 
-    .divfrica, .divpan {
-        display: flex;
+    .tudo {
         flex-direction: column;
+        align-items: center;
+        max-width: 450px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .bdr {
+        width: 95%;
+    }
+    
+    .tudo {
+        flex-direction: column;
+        align-items: center;
+        max-width: 450px;
+        margin: 0 auto;
+        width: 100%;
+        margin-bottom: 10px;
     }
 }

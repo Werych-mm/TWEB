@@ -9,18 +9,19 @@
     display: flex;
     justify-content: center;
     margin-top: 5px;
-    width: 100%;
+    max-width: 100%;
+}
+
+.mcd, .lc, .hx, .dstm {
+    margin: 10px;
+    border-radius: 5px;
+    max-width: 380px;
 }
 
 .mcimg {
-    width: 380px;
+    margin: 5px;
     height: 220px;
-}
-
-.mcd , .jbd, .lc, .hx, .dstm {
-    width: 30%;
-    margin: 10px;
-    border-radius: 5px;
+    width: 350px;
 }
 
 .divimgmc {
@@ -34,13 +35,12 @@
 }
 
 .mcd {
-    width: 400px;
     background-color: var(--cor-neon);
 }
 
 .imglc {
-    width: 380px;
-    height: 215px;
+    height: 220px;
+    width: 350px;
 }
 
 .divlcimg {
@@ -55,14 +55,14 @@
 }
 
 .lcd {
-    width: 400px;
     background-color: var(--cor-neon);
-    height: 500px;
+    height: 515px;
+    border-radius: 5px;
 }
 
 .imghx {
-    width: 380px;
-    height: 230px;
+    height: 245px;
+    width: 350px;
 }
 
 .divhximg {
@@ -77,14 +77,14 @@
 }
 
 .hxd {
-    width: 400px;
     background-color: var(--cor-neon);
-    height: 500px;
+    height: 515px;
+    border-radius: 5px;
 }
 
 .imgstm {
-    width: 400px;
-    height: 215px;
+    width: 350px;
+    height: 225px;
 }
 
 .divdstmimg {
@@ -99,44 +99,33 @@
 }
 
 .dstmd {
-    width: 400px;
     background-color: var(--cor-neon);
-    height: 500px;
+    height: 515px;
+    border-radius: 5px;
 }
 
 @media (max-width: 768px) {
     
-    header {
-        width: auto;
+    .stts {
+        text-align: center;
     }
     
     .Tudots {
-        display: flex;
         flex-direction: column;
-        max-width: 480px;
+        align-items: center;
+        max-width: 450px;
         margin: 0 auto;
-        width: 100%;
         margin-bottom: 10px;
-    }
-
-    .mc, .lcd, .hxd, .dstmd {
-        height: auto;
     }
 }
 
 @media (max-width: 480px) {
     .tudots {
-        display: flex;
-        max-width: 480px;
+        flex-direction: column;
+        align-items: center;
+        max-width: 450px;
         margin: 0 auto;
         width: 100%;
         margin-bottom: 10px;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .mc, .lcd, .hxd, .dstmd {
-        align-items: center;
-        justify-content: center;
     }
 }
