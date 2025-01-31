@@ -1,0 +1,50 @@
+@import url(main.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(1900deg, #fff0aa, #f874a1);
+}
+
+header, h1 {
+    align-items: center;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav ul li {
+    text-decoration: none;
+    margin: 0 20px 0;
+    list-style: none;
+}
+
+ul a {
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    position: relative;
+    overflow: hidden;
+}
