@@ -33,6 +33,7 @@ nav ul {
 
 nav a {
     text-decoration: none;
+    color: black;
 }
 
 nav ul li {
@@ -47,4 +48,15 @@ ul a {
     margin: 0 5px;
     position: relative;
     overflow: hidden;
+}
+
+footer {
+    background: linear-gradient(1900deg, #fff0aa, #f874a1);
+    padding: 50px;
+    bottom: 0;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    position: absolute;
+    width: 100%;
 }
