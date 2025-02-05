@@ -1,0 +1,50 @@
+.subtitfil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+aside {
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.imgsfi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 395px;
+    height: 350px;
+}
+
+.divpre {
+    border: 2px solid black;
+    width: auto;
+    max-width: 400px;
+}
+
+.divmi {
+    border: 2px solid black;
+    width: auto;
+    max-width: 400px;
+}
+
+.divmar {
+    border: 2px solid black;
+    width: auto;
+    max-width: 400px;
+}
+
+.divdive {
+    border: 2px solid black;
+    width: auto;
+    max-width: 400px;
+}
+
+.descdive {
+    display: flex;
+    object-fit: cover;
+    text-align: center;
+}

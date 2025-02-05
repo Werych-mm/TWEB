@@ -50,7 +50,7 @@ ul a {
     overflow: hidden;
 }
 
-footer {
+.footerb {
     background: linear-gradient(1900deg, #fff0aa, #f874a1);
     padding: 50px;
     bottom: 0;
@@ -58,5 +58,15 @@ footer {
     text-decoration: none;
     list-style: none;
     position: absolute;
+    width: 100%;
+}
+
+.footerr {
+    background: linear-gradient(1900deg, #fff0aa, #f874a1);
+    padding: 50px;
+    bottom: 0;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
     width: 100%;
 }

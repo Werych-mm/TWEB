@@ -6,9 +6,9 @@
     <title>Projeto final</title>
     <link rel="stylesheet" href="../../styles/global.css">
 </head>
-<body>
+<body class="bodycon">
     <header>
-        <img src="../../images/LW.png" class="logo">
+        <img src="../../images/LW_(3)_bg_png.png.png" class="logo">
         <h1>Bem-vindos a nossa pagina!</h1>
 
         <nav>
@@ -16,33 +16,37 @@
                 <li><a href="../home/home.html">Home</a></li>
                 <li><a href="../sobre/sobre.html">Sobre</a></li>
                 <li><a href="contato.html">Contato</a></li>
-                <li><a href="../Filmes/filmes.html">filmes</a></li>
+                <li><a href="../Filmes/filmes.html">Filmes</a></li>
             </ul>
         </nav>
     </header>
 
-    <div class="container">
-        <div class="divform">
-            <form>
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" required>
-                
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" name="email" required>
-                
-                <label for="mensagem">Mensagem</label>
-                <textarea name="mensagem" id="mensagem" rows="4"></textarea>
-                
-                <label>
-                    <input type="checkbox" name="newsletter"> Desejo receber atualizações por e-mail.
-                </label>
-                
-                <button type="submit">Enviar</button>
-            </form>
-        </div>
-    </div>
+    <Main class="maincon">    
+        <h3 class="subtitcon">Formulário para contato</h3>
+        <div class="container">
+            <div class="divform">
 
-    <footer>WeLumicines© - 2025</footer>
+                <form>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                    
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="mensagem">Mensagem</label>
+                    <textarea name="mensagem" id="mensagem" rows="4"></textarea>
+                    
+                    <label>
+                        <input type="checkbox" name="newsletter"> Desejo receber atualizações por e-mail.
+                    </label>
+                    
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </Main>
+
+    <footer class="footerb">WeLumicines© - 2025</footer>
 
 </body>
 </html>
