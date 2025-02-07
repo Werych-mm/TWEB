@@ -2,49 +2,70 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 20px;
 }
 
 aside {
-    display: flex ;
-    align-items: center;
-    justify-content: center;
+    margin: auto;
     gap: 20px;
 }
+
+.divlv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.divani {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 35px;
+}
+
 
 .imgsfi {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 395px;
-    height: 350px;
+    height: 600px;
+    cursor: pointer;
 }
 
 .divpre {
-    border: 2px solid black;
     width: auto;
     max-width: 400px;
 }
 
 .divmi {
-    border: 2px solid black;
     width: auto;
     max-width: 400px;
+    cursor: pointer;
 }
 
 .divmar {
-    border: 2px solid black;
     width: auto;
     max-width: 400px;
+    cursor: pointer;
 }
 
 .divdive {
-    border: 2px solid black;
     width: auto;
     max-width: 400px;
+    cursor: pointer;
 }
+
+.divden {
+    width: auto;
+    max-width: 400px;
+    cursor: pointer;
+}
+
 
 .descdive {
     display: flex;
-    object-fit: cover;
     text-align: center;
 }
