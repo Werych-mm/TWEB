@@ -87,23 +87,25 @@ ul a:hover::after {
 
 .footerb {
     background: linear-gradient(1900deg, #fff0aa, #f874a1);
-    padding: 50px;
+    padding: 30px;
     bottom: 0;
     text-align: center;
     text-decoration: none;
     list-style: none;
     position: absolute;
     width: 100%;
+    color: #fff;
 }
 
 .footerr {
     background: linear-gradient(1900deg, #fff0aa, #f874a1);
-    padding: 50px;
+    padding: 30px;
     bottom: 0;
     text-align: center;
     text-decoration: none;
     list-style: none;
     width: 100%;
+    color: #fff;
 }
 
 .footerb a {
@@ -127,7 +129,7 @@ ul a:hover::after {
     cursor: pointer;
     width: 75px;
     padding: 10px;
-    font-size: 10px;
+    font-size: 15px;
     font-weight: bold;
     border: none;
 }
@@ -143,11 +145,27 @@ ul a:hover::after {
     cursor: pointer;
     width: 75px;
     padding: 10px;
-    font-size: 10px;
+    font-size: 15px;
     font-weight: bold;
     border: none;
 }
 
 .butliw .inswe {
+    color: rgb(130, 174, 236);
+}
+
+.btntop {
+    background-color: #fff;
+    color: rgb(130, 174, 236);
+    border-radius: 5px;
+    cursor: pointer;
+    width: 75px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+}
+
+.btntop a {
     color: rgb(130, 174, 236);
 }
