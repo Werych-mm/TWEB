@@ -12,7 +12,9 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background: linear-gradient(1900deg, #fff0aa, #f874a1);
+    background-color: #2b2a30;
+    color: #fff;
+    max-width: 100%;
 }
 
 header, h1 {
@@ -34,7 +36,7 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: black;
+    color: #fff;
 }
 
 nav ul li {
@@ -86,7 +88,7 @@ ul a:hover::after {
 }
 
 .footerb {
-    background: linear-gradient(1900deg, #fff0aa, #f874a1);
+    background-color: #2b2a30;
     padding: 30px;
     bottom: 0;
     text-align: center;
@@ -98,7 +100,7 @@ ul a:hover::after {
 }
 
 .footerr {
-    background: linear-gradient(1900deg, #fff0aa, #f874a1);
+    background-color: #2b2a30;
     padding: 25px;
     bottom: 0;
     text-align: center;
@@ -169,4 +171,27 @@ ul a:hover::after {
 
 .btntop a {
     color: rgb(130, 174, 236);
+}
+
+@media (max-width: 768px) {
+    header {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    ul a {
+        font-size: small;
+        margin-top: 5px;
+    }
+    
+    .logo {
+        width: 150px;
+        height: 150px;
+        margin-top: 8px;
+    }
+
+    .footerr {
+        width: 100%;
+        font-size: medium;
+    }
 }
