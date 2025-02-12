@@ -21,14 +21,14 @@ header, h1 {
 
 .logo {
     width: 180px;
-    height: 180px;
+    height: 170px;
     border-radius: 10px;
 }
 
 nav ul {
     list-style: none;
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
     padding: 10px;
 }
 
@@ -99,7 +99,7 @@ ul a:hover::after {
 
 .footerr {
     background: linear-gradient(1900deg, #fff0aa, #f874a1);
-    padding: 30px;
+    padding: 25px;
     bottom: 0;
     text-align: center;
     text-decoration: none;
@@ -113,6 +113,7 @@ ul a:hover::after {
     list-style: none;
     font-weight: bold;
     color: #fff;
+    margin-top: 10px;
 }
 
 .footerr a  {

@@ -1,0 +1,13 @@
+.conteiso {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+    margin-top: 15px;
+}
+
+.pic1 {
+    width: 550px;
+    height: 500px;
+    border-radius: 10px;
+} 
