@@ -21,6 +21,11 @@
     font-size: larger;
 }
 
+.videoso {
+    border-radius: 10px;
+    margin-left: 120px;
+}
+
 @media (max-width: 768px) {
     .conteiso {
         gap: 2rem;
@@ -34,6 +39,11 @@
     .apresenso {
         font-size: small;
         text-align: justify;
+    }
+
+    .videoso {
+        width: 55%;
+        margin-left: 10px;
     }
 }
 
@@ -54,5 +64,9 @@
     .aprenso {
         font-size: small;
         text-align: justify;
+    }
+
+    .videoso {
+        margin-left: 109px;
     }
 }
