@@ -1,14 +1,14 @@
 .contentho {
     display: flex;
     justify-content: space-around;
-    margin-top: 69px;
-    margin-bottom: 15px;
+    margin-top: 90px;
+    margin-bottom: 90px
 }
 
 .fot1 {
     width: 600px;
     height: 500px;
-    border-radius: 10px;
+    border-radius: 60px;
 }
 
 .apresenho {
@@ -19,6 +19,7 @@
 }
 
 .textapresen {
+    display: flex;
     text-align: center;
     width: 490px;
     margin-top: 35px;
@@ -143,6 +144,9 @@
     .textapresen {
         max-width: 100%;
         font-size: medium;
+        align-items: center;
+        margin-left: 140px;
+        margin-top: -25px;
     }
 
     .footerr {

@@ -111,10 +111,35 @@ aside {
 
     .imgsfi {
         width: 350px;
-        height: 400px;
+        height: 450px;
     }
 
     .dpsimgfi {
         font-size: medium;
+    }
+}
+
+@media (max-width: 480px) {
+    .divlv {
+        width: 35%;
+        margin-left: 155px;
+        font-size: small;
+        flex-direction: column;
+    }
+
+    .divani {
+        width: 45%;
+        font-size: small;
+        margin-left: 135px;
+        flex-direction: column;
+    }
+
+    .imgsfi {
+        width: 250px;
+        height: 350px;
+    }
+
+    .dpsimgfi {
+        font-size: smaller;
     }
 }

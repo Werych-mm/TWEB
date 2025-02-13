@@ -89,7 +89,7 @@ ul a:hover::after {
 
 .footerb {
     background-color: #2b2a30;
-    padding: 30px;
+    padding: 15px;
     bottom: 0;
     text-align: center;
     text-decoration: none;
@@ -101,7 +101,7 @@ ul a:hover::after {
 
 .footerr {
     background-color: #2b2a30;
-    padding: 25px;
+    padding: 15px;
     bottom: 0;
     text-align: center;
     text-decoration: none;
